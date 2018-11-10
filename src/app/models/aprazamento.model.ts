@@ -10,6 +10,7 @@ export interface Aprazamento {
     medicamento: Medicamento;
     isConsumido: boolean;
     intervalo: string;
-    isCancelado: boolean;
+    isCancelado: string;
     justificativa?: string;
 }
+
