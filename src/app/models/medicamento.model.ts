@@ -4,5 +4,4 @@ export interface Medicamento {
   dosagem: string;
   dataFabricacao: string;
   dataValidade: Date;
-  frequencia: string;
 }

@@ -1,8 +1,4 @@
 $topnav-background-color: #222;
-$blue:#007FFF;
-body{
-    color: $blue;
-}
 :host {
     display: block;
 }
@@ -13,7 +9,7 @@ body{
     right: 0;
     bottom: 0;
     overflow: auto;
-    background: $blue;
+    background: $topnav-background-color;
     text-align: center;
     color: #fff;
     padding: 3em;
@@ -43,8 +39,7 @@ body{
         -webkit-border-radius: 50px;
         border-radius: 50px;
         color: rgba(255, 255, 255, 0.8);
-        background: $blue;
-        font-weight: bold;
+        background: $topnav-background-color;
         border: 2px solid rgba(255, 255, 255, 0.8);
         font-size: 18px;
         line-height: 40px;
@@ -94,7 +89,7 @@ body{
     }
     .user-avatar {
         -webkit-border-radius: 50%;
-        border-radius: 52%; 
-        width: 66%;
+        border-radius: 50%;
+        border: 2px solid #fff;
     }
 }
